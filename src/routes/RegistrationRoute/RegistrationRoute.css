@@ -1,0 +1,12 @@
+.registration__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.registration__container p {
+  font-size: larger;
+  align-items: center;
+  padding: 15px;
+}
