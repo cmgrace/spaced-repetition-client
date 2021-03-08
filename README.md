@@ -16,8 +16,8 @@ This application is a language learning application using the Spaced Repetition 
 
 - Users start off on a landing page, where they are provided with the options to login or register
 
-<img src="images/signup.png" alt="registration page" width="200px">
-<img src="images/login.png" alt="login page" width="200px">
+<img src="images/signup.png" alt="registration page" width="600px">
+<img src="images/login.png" alt="login page" width="600px">
 
 #### Dashboard
 
@@ -25,7 +25,7 @@ This application is a language learning application using the Spaced Repetition 
 - Users can see their total score
 - Users can see their incorrect count and correct count for each word
 
-<img src="images/dashboard.png" alt="Dashboard" width="200px" />
+<img src="images/dashboard.png" alt="Dashboard" width="600px" />
 
 #### Learn Page
 
@@ -33,7 +33,7 @@ This application is a language learning application using the Spaced Repetition 
 - Users can see their total score
 - Users can see the number of times they have answered the current word correctly and incorrectly
 
-<img src="images/learn.png" alt="Learning Route" width="200px" />
+<img src="images/learn.png" alt="Learning Route" width="600px" />
 
 #### Feedback Page
 
