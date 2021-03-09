@@ -4,17 +4,16 @@
 
 - Live Deployment: https://spaced-repetition-client-jet.vercel.app/
 - Server Repository: https://github.com/cmgrace/spaced-repetition-api
-- Client Repository: https://github.com/cmgrace/spaced-repetition-client
 
 ## Summary
 
 This application is a language learning application using the Spaced Repetition learning technique!
 
-## User Stories
+## Main feature
 
 #### Landing Page
 
-- Users start off on a landing page, where they are provided with the options to login or register
+- The landing page provides users with login and register feature
 
 <img src="images/signup.png" alt="registration page" width="600px">
 <img src="images/login.png" alt="login page" width="600px">
@@ -51,21 +50,23 @@ This application is a language learning application using the Spaced Repetition 
 
 ## Technology Used
 
-### Client:
+### Frontend
 
 - ReactJS
-- react-router-dom for routing and in-app navigation
-- CSS (vanilla CSS)
-- Babel
+- React Router
+- React Context
+- HTML
+- CSS
 - Webpack
-- Vercel for deployment
 - Cypress for testing
+- Deployed at Vercel
 
-### Backend:
+### Backend
 
-- Express for handling API requests
-- NodeJS for interacting with the file system
-- Postgrator for database migration
-- Mocha, Chai, Supertest for endpoints testing
-- Knex.js for interfacing with PostgreSQL database
-- Heroku for database and server deployment
+- RESTful API
+- Node & Express
+- PostgresSQL
+- Knex
+- Supertest
+- Mocha & Chai
+- Deployed Heroku
