@@ -47,23 +47,30 @@ class LoginForm extends Component {
       <form className="login-form" onSubmit={this.handleSubmit}>
         <div role="alert">{error && <p>{error}</p>}</div>
         <div className="login-input">
-          <Label htmlFor="login-username-input">Username</Label>
+          <Label htmlFor="login-username-input">Username:</Label>
           <Input
             ref={this.firstInput}
             id="login-username-input"
             name="username"
+            placeholder="admin"
             required
           />
         </div>
         <div className="login-input">
-          <Label htmlFor="login-password-input">Password</Label>
+          <Label htmlFor="login-password-input">Password:</Label>
           <Input
             id="login-password-input"
             name="password"
             type="password"
+            placeholder="pass"
             required
           />
         </div>
+        <p>
+          Demo username: admin
+          <br />
+          Demo password: pass
+        </p>
         <Button type="submit" className="red-back">
           Login
         </Button>
